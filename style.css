@@ -73,10 +73,14 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     display: inline-block;
 }
 .PrimaryMenu ul li a {
-    display: block;
-    padding: 0px 20px;
-    font-size: 16px;
-    line-height: 60px;
+	display: block;
+	padding: 0px 20px;
+	font-size: 16px;
+	line-height: 50px;
+	transition: .5s;
+}
+.PrimaryMenu ul li a:hover{
+	color: #6278df;
 }
 
 .header_button{
@@ -93,7 +97,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 	font-weight: 700;
 	color: #6278df !important;
 }
-/* DropDown Menu */
+/* DropDown Menu-1 */
 .PrimaryMenu ul li{
     position: relative;
 }
@@ -109,11 +113,22 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     transform: scaleY(0);
     transform-origin: top center;
 }
+.PrimaryMenu ul li ul li{
+	border-bottom: 1px solid #ddd;
+}
+
 .PrimaryMenu ul li:hover ul{
     opacity: 1;
     visibility: visible;
     transform: scaleY(1);
 }
+.dropdown_2 {
+	width: 240px !important
+}
+.dropdown_2 li {
+	width: 100%;
+}
+
 
 /* Banner Section */
 .banner_section {
