@@ -38,6 +38,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     font-family: 'Work Sans', sans-serif;
 }
 
+/* Header Section */
 .headerSection {
 	background: #fff;
 	border-bottom: 1px solid #ddd;
@@ -69,6 +70,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 	width: 57%;
 }
 
+/* Menu Start */
 .PrimaryMenu ul li{
     display: inline-block;
 }
@@ -82,22 +84,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 .PrimaryMenu ul li a:hover{
 	color: #6278df;
 }
-
-.header_button{
-    width: 10%;
-    text-align: right;
-}
-.headerBtn {
-	border: 2px solid #6278df;
-	display: inline-block;
-	padding: 10px 26px;
-	margin-top: 10px;
-	border-radius: 7px;
-	font-size: 16px;
-	font-weight: 700;
-	color: #6278df !important;
-}
-/* DropDown Menu-1 */
+/* DropDown Menu */
 .PrimaryMenu ul li{
     position: relative;
 }
@@ -116,19 +103,33 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 .PrimaryMenu ul li ul li{
 	border-bottom: 1px solid #ddd;
 }
-
 .PrimaryMenu ul li:hover ul{
     opacity: 1;
     visibility: visible;
     transform: scaleY(1);
 }
 .dropdown_2 {
-	width: 240px !important
+	width: 242px !important
 }
 .dropdown_2 li {
 	width: 100%;
 }
 
+/* Header Button */
+.header_button{
+    width: 10%;
+    text-align: right;
+}
+.headerBtn {
+	border: 2px solid #6278df;
+	display: inline-block;
+	padding: 10px 26px;
+	margin-top: 10px;
+	border-radius: 7px;
+	font-size: 16px;
+	font-weight: 700;
+	color: #6278df !important;
+}
 
 /* Banner Section */
 .banner_section {
@@ -159,7 +160,6 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     font-size: 60px;
     margin: 30px 0;
 }
-
 .default_btn {
 	color: #7d7d7d;
 	padding: 20px 35px;
