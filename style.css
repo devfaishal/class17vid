@@ -55,7 +55,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 .headerLogo{
     width: 29%;
 }
-.headerLogo img {
+.header_logo img {
 	margin-top: 5px;
 	height: 45px;
 	float: left;
