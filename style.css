@@ -43,11 +43,11 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 	background: #fff;
 	border-bottom: 1px solid #ddd;
 	padding: 6px 0;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 99;
-    width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 99;
+	width: 100%;
 }
 .headerSection a{
     color: #010101;;
@@ -55,21 +55,25 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 .headerLogo{
     width: 29%;
 }
-.logo img {
-    height: 50px;
-    float: left;
-    margin-right: 10px;
+.headerLogo img {
+	margin-top: 5px;
+	height: 45px;
+	float: left;
+	margin-right: 13px;
 }
 .logo span {
     display: inline-block;
     margin-top: 14px;
     font-size: 1.6rem;
     font-weight: 500;
+	transition: .4s;
+}
+.logo span:hover{
+	color: #cccccc;
 }
 .headerMenu {
-	width: 57%;
+	width: 61%;
 }
-
 /* Menu Start */
 .PrimaryMenu ul li{
     display: inline-block;
@@ -123,14 +127,13 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 .headerBtn {
 	border: 2px solid #6278df;
 	display: inline-block;
-	padding: 10px 26px;
-	margin-top: 10px;
+	padding: 10px 27px;
+	margin: 7px 0 7px 0;
 	border-radius: 7px;
 	font-size: 16px;
 	font-weight: 700;
 	color: #6278df !important;
 }
-
 /* Banner Section */
 .banner_section {
 	background: url(https://i.ibb.co/6BztJKr/mbr-4.jpg) no-repeat center center;
@@ -140,7 +143,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 	color: #fff;
 	position: relative;
 	z-index: 9;
-	margin-top: 40px;
+	margin-top: 35px;
 }
 .banner_section::after {
 	content: "";
@@ -225,7 +228,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 	box-shadow: 4px 4px 20px rgba(0,0,0,.1);
 	margin-right: 2%;
 	margin-bottom: 30px;
-	padding: 25px;
+	padding: 48px 32px;
 	box-sizing: border-box;
 }
 .s_icon {
